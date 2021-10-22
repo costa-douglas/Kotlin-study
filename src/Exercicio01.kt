@@ -21,4 +21,4 @@ fun main() {
     var novoSalario = Salario(2000.0, reajuste)
     println(novoSalario.calReajuste())
 }
-
+                                                 // Saida esperada "2400.0"

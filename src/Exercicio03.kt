@@ -3,7 +3,7 @@
 //companion Object com a mensagem chamando método estático, que deve ser
 //acessado sem realizar a instância direta da classe.
 
-class Aluno(id: Int, nome: String, curso: String) {
+class AlunoY(id: Int, nome: String, curso: String) {
     var id: Int
     var nome: String
     var curso: String
@@ -20,6 +20,12 @@ class Aluno(id: Int, nome: String, curso: String) {
 }
 
 fun main() {
-    var aluno1 = Aluno(666, "Jon Snow", "King in the North")
+    var aluno1 = AlunoY(666, "Jon Snow", "King in the North")
     aluno1.listar_aluno()
 }
+                                                    //saida esperada: //Nome: Jon Snow
+                                                                      //Curso: King in the North
+                                                                      //Id: 666
+
+
+

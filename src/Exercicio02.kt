@@ -20,3 +20,6 @@ fun main() {
     var aluno1 = Aluno(666, "Jon Snow", "King in the North")
     println("Id: ${aluno1.id}\nNome: ${aluno1.nomeAluno}\nCurso: ${aluno1.curso}\n")
 }
+                                                        //Saida esperada: //Id: 666
+                                                                          //Nome: Jon Snow
+                                                                          //Curso: King in the North
